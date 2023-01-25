@@ -1,11 +1,30 @@
 .App {
   text-align: center;
+  background-color: yellow;
+  /* margin:0px; */
+  padding:20px;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.input_div{
+  /* gap: 50px; */
+  font-size: 30px;
+}
+.button_div > span > button{
+  color:white;
+  background-color: blue;
+  margin: 10px;
+  border-radius: 10px;
+  /* gap: 50px; */
+  font-size: 20px
+  
+  
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
